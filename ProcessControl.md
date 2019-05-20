@@ -11,3 +11,11 @@ func main() {
     var num2 int = num1 + 10
     fmt.Println(num2)
 }
+```
+``` go
+func main() {
+    var num1 int = 10
+    var num2 int = num1 + 10
+    fmt.Println(num2)
+}
+```
