@@ -55,5 +55,14 @@ if xxx {
 最好控制在3层以内
 
 ### switch 分支
-不需要 break 
-case 后面可以有多个表达式
+1、不需要 break 
+2、case/swich 后面可以跟表达式
+3、数据类型保持一致
+4、case 后面可以有多个表达式
+5、default不是必须的
+6、case 后面表达式如果是常量值要求不能重复
+
+7、switch 后面可以不带表达式
+8、switch 后面可以声明定义变量 分号结束
+9、fallthrough   // 穿透，继续执行下面代码
+10、 Type Switch 判断某个interface变量中实际指向的变量类型

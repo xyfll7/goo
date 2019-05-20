@@ -21,6 +21,7 @@ func main()  {
     //model.StudentInfo0()
     //model.GreaterThan18()
     model.MathIf(2.0, 4.0, 2.0)
+    model.SwitchTest()
 }
 
 
