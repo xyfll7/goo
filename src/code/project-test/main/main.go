@@ -4,8 +4,8 @@ package main  // 表示该 hello.go 文件所在的包是 main
 import (
 	"fmt"   // 没有使用一个包又不想删除
     "strconv"
-    _ "code/project-test/model"  
-    "code/project-test/utils"  
+    "code/project-test/model"  
+    _ "code/project-test/utils"  
 ) 
 // 每一个源文件都一个包含一个init函数，
 // 该函数会在main函数执行前被GO运行框架调用，
@@ -69,8 +69,9 @@ func main()  {
     // model.Ptr()
     // model.GetSum1()
     // model.TypeTest()
-    fmt.Println("Age=", utils.Age)
-    fmt.Println("Age=", utils.Name)
+    // fmt.Println("Age=", utils.Age)
+    // fmt.Println("Age=", utils.Name)
+    model.AddUpper0()
 }
 
 
