@@ -12,6 +12,7 @@ import (
 // init函数会在main函数前被调用
 // 再该函数中可以完成初始化工作
 
+
 var age = test()
 func test() int{
     fmt.Println("test()")
